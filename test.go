@@ -18,4 +18,5 @@ func main() {
 	fmt.Printf("%v %p\n", data, &data[0])
 	fmt.Printf("%v %p\n", s2, &s2[0])
 	fmt.Printf("%v %p\n", s1, &s1[0])
+	
 }
