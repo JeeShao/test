@@ -1,4 +1,4 @@
-module test/pkg/student
+module github.com/JeeShao/test/pkg/student
 
 go 1.14
 
