@@ -1,4 +1,4 @@
-module test
+module github.com/JeeShao/test
 
 go 1.14
 
