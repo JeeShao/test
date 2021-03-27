@@ -17,6 +17,6 @@ func New() *Stu {
 }
 
 func (stu *Stu) GetInfo() string {
-	fmt.Println("version v1.0.2")
+	fmt.Println("version v1.0-fst-r1")
 	return fmt.Sprintf("%s`s id is %s, class id is %s", stu.Name, stu.Id, stu.ClassId)
 }
