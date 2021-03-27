@@ -20,4 +20,11 @@ func main() {
 	fmt.Printf("%v %p\n", s1, &s1[0])
 	
 	fmt.Println("123")
+	err := a(1)
+	fmt.Println(err)
+}
+
+func a(a int) error  {
+	fmt.Println(a)
+	return nil
 }
