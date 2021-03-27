@@ -1,4 +1,4 @@
-module pkg/student
+module student
 
 go 1.14
 
