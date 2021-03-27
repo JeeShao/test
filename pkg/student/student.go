@@ -4,7 +4,11 @@
  */
 package student
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/pkg/errors"
+)
 
 type Stu struct {
 	Id      string
@@ -18,5 +22,6 @@ func New() *Stu {
 
 func (stu *Stu) GetInfo() string {
 	fmt.Println("version pkg/student/v1.0-fst-r1")
+	println(errors.New("1111111111"))
 	return fmt.Sprintf("%s`s id is %s, class id is %s", stu.Name, stu.Id, stu.ClassId)
 }
