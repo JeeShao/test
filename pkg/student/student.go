@@ -5,8 +5,9 @@
 package student
 
 import (
-	"dependence"
 	"fmt"
+
+	"github.com/JeeShao/dependence"
 	"github.com/pkg/errors"
 )
 
