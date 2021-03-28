@@ -5,8 +5,8 @@
 package student
 
 import (
+	"dependence"
 	"fmt"
-
 	"github.com/pkg/errors"
 )
 
@@ -21,7 +21,8 @@ func New() *Stu {
 }
 
 func (stu *Stu) GetInfo() string {
-	fmt.Println("version pkg/student/v1.0-fst-r1")
+	fmt.Println("test version pkg/student/v1.0-fst-r1")
+	fmt.Println(dependence.GetVersion())
 	println(fmt.Sprintf("%v", errors.New("22222222")))
 	return fmt.Sprintf("%s`s id is %s, class id is %s", stu.Name, stu.Id, stu.ClassId)
 }
